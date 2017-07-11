@@ -1,0 +1,178 @@
+/*FLEX BOX*/
+#mainContainer {
+display: flex;
+background-color: white;
+height: 100vh;
+width: 100vw;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+/*header Affrim Logo*/
+.itemOne {
+  display: flex;
+  height: 10vh;
+  width:  100vw;
+  background-color: white;
+  border-bottom: 1px solid #D5D9DE;
+  justify-content: center;
+
+  }
+
+.affirmLogo {
+flex: 0 0 200px;
+
+}
+
+/*container for form*/
+.itemTwo {
+  display: flex;
+  height: 80vh;
+  width:  90vw;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+/*form data*/
+.dataForm {
+  display: flex;
+  height: 120vh;
+  width: 40vw;
+  background-color: white;
+  flex-direction: column;
+}
+
+form, input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form {
+display: inline-block;
+width: 400px;
+
+}
+button {
+  margin: auto;
+}
+
+/*Additional Styling*/
+
+body {
+  font-family: Sans-serif;
+  color: #495662;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.affirmLogo {
+  background: transparent url("/css/min/images/affirm-logotype-b275b294.gif") center center no-repeat;
+  height: 40px;
+  width: 90px;
+  background-size: contain;
+  margin-top: 10px;
+
+}
+
+div, h3 {
+display: flex;
+margin: 0 auto;
+font-size: 25px;
+font-weight: 200;
+white-space: nowrap;
+
+}
+
+div, h5 {
+font-size: 15px;
+font-weight: 100;
+}
+
+h5, a {
+  text-decoration: none;
+}
+
+input {
+
+  height: 53px;
+  width: 365px;
+  border: 1px solid #d5d9de;
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 0 0 15px 10px;
+  outline-style: solid #0fa0ea;
+}
+
+input, textarea {
+  color: #abb4be;
+  padding-left: 20px;
+  font-weight: 200;
+}
+
+input:nth-child(2) {
+  height: 53px;
+  width: 247.33px;
+}
+
+#Suffix datalist {
+
+  border: 1px solid #d5d9de;
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 5px;
+  outline: none;
+  background-color: yellow;
+
+}
+
+.subHeader {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 0px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+#createAccount {
+  height: 65px;
+  width: 365px;
+  border-radius: 50px;
+  background-color: #00c8e5;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border: none;
+}
+
+.needHelp {
+  border: none;
+  height: 65px;
+  width: 200px;
+  background: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #0fa0ea;
+}
+
+a {
+    color: #2984ee;
+}
+
+ p {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  line-height: 1.5em;
+}
+
+button {
+  margin: 0 auto;
+  margin-top: 50px;
+  outline: none;
+
+
+}
